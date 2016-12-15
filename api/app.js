@@ -10,7 +10,7 @@ app.use(cors({origin: true, credentials: true}))
 //app.use(jwt({secret: process.env.SECRET }))
 
 app.get('/', (req, res) => {
-  res.send({message: 'hello world'})
+  res.send({message: 'hello world2'})
 })
 
 if (!module.parent) {

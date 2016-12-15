@@ -18,6 +18,7 @@ const App = React.createClass({
     return (
       <div className="App">
         <h1>{this.state.message}</h1>
+        <p>Version 2.0</p>
       </div>
     );
   }
